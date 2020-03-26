@@ -1,13 +1,49 @@
 # keyboard-symbol
 Convert key names to symbols like ⌘, ⇧ or ⌥
 
+## Install
+```
+npm install keyboard-symbol
+```
+
 ## Usage
 ```js
 import keyboardSymbol from 'keyboard-symbol'
 
-keyboardSymbol('meta', 'mac') // ⌘
-keyboardSymbol('meta', 'win') // ❖
-keyboardSymbol('control', 'mac') // ⌃
-keyboardSymbol('control', 'win') // ctrl
-keyboardSymbol('unknownKeyName', 'mac') // unknownKeyName
+keyboardSymbol('meta', 'mac')
+//=> ⌘
+
+keyboardSymbol('meta', 'win')
+//=> ❖
+
+keyboardSymbol('control', 'mac')
+//=> ⌃
+
+keyboardSymbol('control', 'win')
+//=> ctrl
+
+keyboardSymbol('unknownKeyName', 'mac')
+//=> unknownKeyName
 ```
+
+## API
+
+### keyboardSymbol(key, OS)
+
+#### key
+
+Type: `string`\
+Default: `''`
+
+Your key name.
+
+#### OS
+
+Type: `string`\
+Default: `mac`
+
+Can be `mac` or `win`.
+
+## List of symbols
+
+⌃ ⌥ ⌥ ⌘ ❖ ⇪ ⇧ ↑ → ↓ ← ↩ ⌫ ⌦ ⎋ ⇥ ⇞ ⇟ ␣ ctrl alt ([source](https://github.com/ueberdosis/keyboard-symbol/blob/master/src/keyboard-symbol.js))

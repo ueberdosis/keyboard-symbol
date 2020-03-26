@@ -1,6 +1,11 @@
 # keyboard-symbol
 Convert key names to symbols like ⌘, ⇧, ⌥ and many more. Supports common symbols for Mac and Windows keyboards.
 
+[![](https://img.shields.io/npm/v/keyboard-symbol.svg?label=version)](https://www.npmjs.com/package/keyboard-symbol)
+[![](https://img.shields.io/npm/dm/keyboard-symbol.svg)](https://npmcharts.com/compare/keyboard-symbol?minimal=true)
+[![](https://img.shields.io/npm/l/keyboard-symbol.svg)](https://www.npmjs.com/package/keyboard-symbol)
+[![](https://img.badgesize.io/https://unpkg.com/keyboard-symbol/dist/keyboard-symbol.js?compression=gzip&label=size&colorB=000000)](https://www.npmjs.com/package/keyboard-symbol)
+
 ## Install
 ```
 npm install keyboard-symbol

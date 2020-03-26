@@ -49,6 +49,6 @@ Default: `mac`
 
 Can be `mac` or `win`.
 
-## List of symbols
+## List of supported symbols
 
 ⌃ ⌥ ⌘ ❖ ⇪ ⇧ ↑ → ↓ ← ↩ ⌫ ⌦ ⎋ ⇥ ⇞ ⇟ ␣ ctrl alt ([source](https://github.com/ueberdosis/keyboard-symbol/blob/master/src/keyboard-symbol.js))

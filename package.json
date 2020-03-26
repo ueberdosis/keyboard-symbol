@@ -1,0 +1,34 @@
+{
+  "name": "keyboard-symbol",
+  "version": "1.0.0",
+  "author": "Philipp Kühn",
+  "license": "MIT",
+  "homepage": "https://github.com/ueberdosis/keyboard-symbol#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ueberdosis/keyboard-symbol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ueberdosis/keyboard-symbol/issues"
+  },
+  "keywords": [
+    "key",
+    "keyboard",
+    "shortcut"
+  ],
+  "files": [
+    "dist"
+  ],
+  "source": "src/keyboard-symbol.js",
+  "main": "dist/keyboard-symbol.js",
+  "module": "dist/keyboard-symbol.mjs",
+  "unpkg": "dist/keyboard-symbol.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "start": "microbundle watch",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}

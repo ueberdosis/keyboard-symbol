@@ -1,5 +1,5 @@
 # keyboard-symbol
-Convert key names to symbols like ⌘, ⇧, ⌥ and many more
+Convert key names to symbols like ⌘, ⇧, ⌥ and many more. Supports common symbols for Mac and Windows keyboards.
 
 ## Install
 ```

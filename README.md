@@ -35,7 +35,7 @@ keyboardSymbol('unknownKeyName', 'mac')
 Type: `string`\
 Default: `''`
 
-Your key name.
+Your [KeyboardEvent.key](https://developer.mozilla.org/de/docs/Web/API/KeyboardEvent/key).
 
 #### OS
 

@@ -6,6 +6,10 @@ Convert key names to symbols like ⌘, ⇧, ⌥ and many more. Supports common s
 [![](https://img.shields.io/npm/l/keyboard-symbol.svg)](https://www.npmjs.com/package/keyboard-symbol)
 [![](https://img.badgesize.io/https://unpkg.com/keyboard-symbol/dist/keyboard-symbol.js?compression=gzip&label=size&colorB=000000)](https://www.npmjs.com/package/keyboard-symbol)
 
+## List of supported symbols
+
+⌃ ⌥ ⌘ ❖ ⇪ ⇧ ↑ → ↓ ← ↩ ⌫ ⌦ ⎋ ⇥ ⇞ ⇟ ␣ ctrl alt ([source](https://github.com/ueberdosis/keyboard-symbol/blob/master/src/keyboard-symbol.js))
+
 ## Install
 ```
 npm install keyboard-symbol
@@ -48,7 +52,3 @@ Type: `string`\
 Default: `mac`
 
 Can be `mac` or `win`.
-
-## List of supported symbols
-
-⌃ ⌥ ⌘ ❖ ⇪ ⇧ ↑ → ↓ ← ↩ ⌫ ⌦ ⎋ ⇥ ⇞ ⇟ ␣ ctrl alt ([source](https://github.com/ueberdosis/keyboard-symbol/blob/master/src/keyboard-symbol.js))
